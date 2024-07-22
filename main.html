@@ -1,21 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eisdealer EIA2</title>
-    <!-- 
-    Aufgabe: Abschlussarbeit_Eisdealer
+  <!-- 
+    Aufgabe: Abschlussarbeit_Eisdealer_SoSe 2024
     Name: David Zahn
     Martikelnummer: 275010
-    Datum: -->
-
-
-
-
-
+    Datum: 22.07.2024 -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eisdealer EIA2</title>
+  <script src="Background.js" defer></script>
+  <script src="main.js" defer></script>
+  <script src="Customer.js" defer></script>
+  <script src="Waiter.js" defer></script>
+  <script src="IceCream.js" defer></script>
+  <script src="Container.js" defer></script>
+  <script src="Toppings.js" defer></script>
+  <script src="Sauce.js" defer></script>
+  <script src="Chair.js" defer></script>
+  <script src="Vector.js" defer></script>
+  <link rel="stylesheet" href="Style.css">
 </head>
-<body>
+
+<body id="body">
+  <canvas width="1000px" height="500px"></canvas>
+  <fieldset id="field">
     
+    <div class="section" id="container">
+      <h4>Container</h4>
+      <label>
+          <input type="radio" id="container-waffle" name="container" value="waffle">
+          Waffle
+      </label>
+      <label>
+          <input type="radio" id="container-papercup" name="container" value="papercup">
+          Papercup
+      </label>
+  </div>
+
+    <div id="flavour">
+      <h4>Flavour</h4>
+      <label>
+        <input type="radio" id="vanilla" name="icecream" value="vanilla">
+        Vanilla
+      </label>
+      <label>
+        <input type="radio" id="choco" name="icecream" value="choco">
+        Chocolate
+      </label>
+      <label>
+        <input type="radio" id="strawberry" name="icecream" value="strawberry">
+        Strawberry
+      </label>
+    </div>
+
+    <div id="scoops">
+      <h4>Scoops</h4>
+      <label>
+        <input type="radio" id="one" name="scoop" value="1">
+        One Scoop
+      </label>
+      <label>
+        <input type="radio" id="two" name="scoop" value="2">
+        Two Scoops
+      </label>
+      <label>
+        <input type="radio" id="three" name="scoop" value="3">
+        Three Scoops
+      </label>
+    </div>
+
+    <div id="toppings">
+      <h4>Toppings</h4>
+      <label>
+        <input type="radio" id="sprinkles" name="toppings" value="sprinkles">
+        Sprinkles
+      </label>
+      <label>
+        <input type="radio" id="cookies" name="toppings" value="cookies">
+        Cookie Chips
+      </label>
+      <label>
+        <input type="radio" id="cream" name="toppings" value="cream">
+        Heavy Cream
+      </label>
+    </div>
+
+    <div id="sauce">
+      <h4>Sauce</h4>
+      <label>
+          <input type="radio" id="chocoSauce" name="sauce" value="chocolate">
+          Choco Sauce
+      </label>
+      <label>
+          <input type="radio" id="strawberrySauce" name="sauce" value="strawberry">
+          Berry Sauce
+      </label>
+  </div>
+
+    <div id="order">
+      <button type="button">Order</button>
+    </div>
+  </fieldset>
+
+
+
 </body>
+
 </html>

@@ -1,0 +1,63 @@
+body {
+    max-width: 1500px;
+    margin: auto;
+}
+
+canvas {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+#field {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    margin-top: 32rem;
+    margin-left: -2rem;
+    padding: 1rem;
+    background-color: rgb(61, 203, 158);
+    border-radius: 1rem;
+    border: 1px solid black; /* Update border style */
+}
+
+#field > div {
+    flex: 1;
+    min-width: 1rem;
+    margin: 1rem;
+}
+
+#container {
+    margin: 1rem;
+}
+
+#scoop, #container {
+    margin-top: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+#order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    min-width: 150px;
+    margin: 10px;
+}
+
+#order button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
