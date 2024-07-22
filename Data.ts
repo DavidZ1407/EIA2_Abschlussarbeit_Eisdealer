@@ -18,7 +18,7 @@
 
 //          Topings: [
 //               { name: "Cocki", price: 0.50, color: "brown" },
-//               { name: "Fruits", price: 0.50, color: "orange" },
+//               { name: "Sprinkels", price: 0.50, color: "orange" },
 //               { name: "Cream", price: 0.50, color: "blue" },
 //             ],
 
