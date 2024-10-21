@@ -18,6 +18,7 @@ namespace IceShop {
             crc2.fillStyle = "red";
             crc2.fillRect(this.positionX, this.positionY, 30, 30); 
             crc2.restore(); // Stellt den vorher gespeicherten Zustand des Zeichenkontexts wieder her. 
+            crc2
         }
 
         
